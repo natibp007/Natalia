@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: 100vh;
+    background: linear-gradient(90deg, rgb(139, 145, 205), rgb(200, 236, 239) 100%);
+    display: flex;
+    color: white;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+header .logo {
+    position: absolute;
+    top: 0px;
+    left: 40px;
+    height: 140px;
+}
+
+header h1 {
+    font-size: 90px;
+    font-weight: 900;
+}
+
+header h2 {
+    font-size: 60px;
+    font-weight: 400;
+
+}
+
+header .computer {
+    width: 700px;
+    height: 700px;
+
+}
+main {
+    display: grid;
+    justify-items: center;
+    gap: 100px;
+    padding: 100px;
+    color: white;
+    background-color: rgb(212, 109, 216);
+}
+ cards {
+ display: flex;
+ gap: 80px;
+}
+main button {
+
+    
+}
